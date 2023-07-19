@@ -14,6 +14,7 @@ function App() {
             <Route path="/" element={<Home />}/>
             <Route path="/instructors" element={<Instructors />}/>
             <Route path="/contact" element={<Contact />}/>
+            {/* olmayan bir adres girildiğinde çalışacak rotue */}
             <Route path="*" element={<NotFound />}/>
           </Routes>
         <Footer />
