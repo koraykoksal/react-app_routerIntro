@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import Instructors from "./pages/Instructors";
 import NotFound from "./pages/NotFound";
 import  { BrowserRouter,Route, Routes } from "react-router-dom";
+import { InstructorsDetail } from "./pages/instructorsDetail";
+
 function App() {
   return (
     
@@ -13,11 +15,14 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/instructors" element={<Instructors />}/>
+            <Route path="/instructors/:id" element={<InstructorsDetail />}/>
             <Route path="/contact" element={<Contact />}/>
             {/* olmayan bir adres girildiğinde çalışacak rotue */}
             <Route path="*" element={<NotFound />}/>
           </Routes>
         <Footer />
+
+
     </BrowserRouter>
 
     
