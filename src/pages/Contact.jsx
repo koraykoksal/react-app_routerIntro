@@ -4,6 +4,7 @@ import { useNavigate } from "react-router";
 
 const Contact = () => {
 
+  //farklı bir sayfaya direk göndermeyi sağlar
   let navigate=useNavigate()
 
   return (
