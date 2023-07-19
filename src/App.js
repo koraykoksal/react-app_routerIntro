@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Instructors from "./pages/Instructors";
 import NotFound from "./pages/NotFound";
 import  { BrowserRouter,Route, Routes } from "react-router-dom";
-
 function App() {
   return (
     
@@ -17,7 +16,6 @@ function App() {
             <Route path="/contact" element={<Contact />}/>
             <Route path="*" element={<NotFound />}/>
           </Routes>
-        <NotFound />
         <Footer />
     </BrowserRouter>
 
