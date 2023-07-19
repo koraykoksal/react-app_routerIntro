@@ -9,9 +9,9 @@ const Instructors = () => {
       {/* //? Absolute path (tam adres vermek) */}
       {/* <Link to="/instructors/1">Instructor-1</Link> */}
       {/* //! Relative path (goreceli adres vermek) */}
-      <Link to="1">Instructor-1</Link>
-      <Link to="2">Instructor-2</Link>
-      <Link to="3">Instructor-3</Link>
+      <Link to="1" state={{name:"koray 1"}}>Instructor-1</Link>
+      <Link to="2" state={{name:"koray 2"}}>Instructor-2</Link>
+      <Link to="3" state={{name:"koray 3"}}>Instructor-3</Link>
     </div>
   </div>
   );
