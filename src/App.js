@@ -16,8 +16,8 @@ function App() {
           <Nav />
           <Routes>
             <Route path="/" element={<Home />}>
-            <Route path="/" element={<About />}/>
-            <Route path="/" element={<Courses />}/>
+            <Route path="about" element={<About />}/>
+            <Route path="courses" element={<Courses />}/>
             </Route>
             <Route path="/instructors" element={<Instructors />}/>
             <Route path="/instructors/:id" element={<InstructorsDetail />}/>
